@@ -23,5 +23,5 @@ add_action( 'plugins_loaded', 'wc_input_start' );
  */
 function wc_input_start() {
 	$frontend = new Wordpress_Post_Dialog();
-    $frontend->init();
+	$frontend->init();
 }
